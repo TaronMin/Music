@@ -1,0 +1,944 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: Tahoma;
+}
+body{
+    overflow-x: hidden;
+}
+ul,li,.second-list-in-header,.third-list-div-in-header>ul,.first-list-in-header,.ul-in-header{
+    list-style: none;
+}
+.display-flex-justify-align-wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+header{
+    background: #AF9559;
+}
+.div-for-header{
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+header,footer,main{
+    width: 100%;
+}
+.text-decoration-underline{
+    text-decoration: underline;
+}
+.first-list-in-header{
+    width: 290px;
+}
+.href-in-telephone-header,.second-list-in-header,.li-in-header-second>a,.third-list-div-in-header>ul>li>a,.first-list-in-header{
+    color: #fff;
+}
+.second-list-div-in-header{
+    width: 290px;
+}
+.font-famely-sans{
+    font-family: sans-serif;
+}
+.third-list-div-in-header{
+    width: 140px;
+}
+.vk-href{
+    padding: 5px;
+    border-radius: 100px;
+    border: 1px solid #fff;
+}
+.header-photo{
+    position: relative;
+    width: 100%;
+    height: 700px;
+    background: url('./photo/first-photo.png') no-repeat;
+    background-size: cover;
+}
+.input-and-etc{
+    width: 80%;
+    margin: 0 auto;
+    padding: 15px;
+}
+.musical-instruments{
+    cursor: pointer;
+}
+.we-work-in-your-talant{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-style: 14px;
+    color: #c1c1c1;
+    text-align: center;
+}
+.for-logo-and-input-divs{
+    width: 100%;
+    background: #fff;
+    padding: 10px 0;
+    border-bottom: 1px solid #c1c1c1;
+}
+.basket-btn{
+    display: block;
+    outline: none;
+    padding: 10px 15px;  
+    font-size: 17px; 
+    border: 1px solid #c1c1c1;
+}
+.basket-btn>i{
+    font-size: 16px;
+    color: #8b8b8b;
+}
+.twenty-five-in-basket-btn{
+    display: inline-block;
+    background: #C19D47;
+    color: #fff;
+    padding: 2px 7px;
+    border-radius: 10px;
+}
+.input-div-header{
+    border: 1px solid #c1c1c1;
+    padding: 10px;
+}
+.input-header{
+    padding: 5px 0;
+    font-size: 16px;
+    width: 350px;
+    outline: none;
+}
+.input-div-header>i{
+    font-size: 16px;
+    color: #c1c1c1;
+}
+.div-for-div-of-lists-header{
+    width: 100%;
+    background: #fff;
+}
+.div-for-lists-headers{
+    width: 80%;
+    margin: 0 auto;
+}
+.li-in-header{
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.nav-hrefs{
+    color: #000;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+.nav-hrefs:hover,.for-hover-li:hover>.span-for-padding-bottom-li>a,.proporties-of-instruments>a:hover{
+    background: #FF2D2D;
+    border-radius: 50px;
+    color: #fff;
+}
+.hover-div-first:hover>.span-for-padding-bottom-li>a{
+    background: #000;
+    border-radius: 50px;
+    color: #fff;
+}
+.span-for-padding-bottom-li{
+    padding-bottom: 20px;
+}
+.nav-hrefs:hover >.li-in-header{
+    font-size: 36px;
+}
+.div-for-lists-headers{
+    padding: 20px 0;
+}
+.hover-div-first{
+    height: 400px; 
+    display: none;
+}
+.for-hover-li{
+    position: relative;
+}
+.for-hover-li:hover .hover-div-first{
+    display: block;
+    position: absolute;
+    top: 39;
+    left: 0;
+    
+}
+.hover-div-first>ul{
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    width: 250px;
+    height: 496px;
+}
+.hover-div-first>ul>li{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+.hover-div-drums{
+    position: absolute;
+    left: 250;
+    top: 0;
+    width: 260px;
+    height: 496;
+    background: #AF9559;
+    color: #fff;
+    display: none;
+}
+.drums:hover{
+    background: #AF9559;
+}
+.hover-div-drums>ul>li{
+    padding: 20px 0 0 40px;
+    position: relative;
+}
+.hover-div-drums>ul>li::before{
+    content: '';
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    border-radius: 100px;
+    background: #fff;
+    left: 20;
+    top: 27;
+}
+.drums:hover .hover-div-drums{
+    display: block;
+}
+.hover-div-training-peds{
+    background: #AF9559;
+    width: 190px;
+    height: 498px;
+    position: absolute;
+    top: -39;
+    left: 250;
+}
+.content-in-training-peds{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.dbz-halilfire-guitar,.inform-for-guitar-dbz{
+    text-align: center;
+    color: #000;
+}
+.inform-for-guitar-dbz{
+    font-size: 13px;
+    margin-top: 15px;
+}
+.prices-for-guitar{
+    background: #fff;
+    padding: 5px;
+}
+.discount-of-guitar{
+    text-decoration: line-through;
+    color: #c1c1c1;
+    font-size: 14px;
+}
+.price-of-guitar{
+    font-size: 16px;
+    color: #E73D3D;
+}
+.hover-div-training-peds{
+    display: none;
+}
+.training-peds:hover .hover-div-training-peds{
+    display: block;
+}
+.slider-photoes{
+    justify-content: space-around;
+    margin: 20px 0;
+}
+.left-chevron-in-slider>i,.right-chevron-in-slider>i{
+    font-size: 36px;
+    color: #c1c1c1;
+    cursor: pointer;
+}
+.all-afters-href{
+    color: #c1c1c1;
+    text-transform: uppercase;
+    margin: 0 10px;
+}
+.all-afters-div{
+    width: 90%;
+    margin: 20px auto;
+}
+.title-price-of-instruments>span{
+    color: #503737;
+    font-size: 50px;
+    font-weight: 400;
+    font-family:  Tahoma, sans-serif;
+}
+.proporties-of-instruments{
+    width: 349px;
+    margin: 20px auto;
+    background: #503737;
+    border-radius: 50px;
+}
+.proporties-of-instruments>a{
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    font-family: Tahoma;
+}
+.div-price-of-instruments{
+    width: 95%;
+    margin: 40px auto;
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+.content-of-price{
+    width: 25%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #c1c1c1;
+    cursor: pointer;
+    position: relative;
+}
+.paragraph-of-price,.the-name-of-instrument,.inform-of-instrument-in-price,.title-price-of-instruments{
+    text-align: center;
+}
+.paragraph-of-price{
+    width: 80%;
+    margin: 0 auto;
+}
+.first-price-div-img{
+    margin-top: 100px;
+}
+.second-price-div-img{
+    margin-top: 150px;
+}
+.name-href{
+    color: #000;
+    font-size: 20px;
+}
+.first-price-div{
+    padding-bottom: 65px;
+}
+.second-paragraph,.forth-paragraph{
+    padding-bottom: 63px;
+}
+.third-price-div{
+    padding-bottom: 81px;
+}
+.discount-price-of-instrument{
+    color: #c1c1c1;
+    text-decoration: line-through;
+}
+.price-of-instrument{
+    font-size: 20px;
+    color: #E73D3D;
+}
+.content-of-price:hover{
+    border: 1px solid #503737;
+}
+.hover-div{
+    width: 100px;
+    border-radius: 50px;
+    background: #503737;
+    position: absolute;
+    bottom: -17;
+    padding: 5px 0;
+    display: none;
+}
+.hover-div>i{
+    color: #fff;
+    font-size: 16px;
+    padding: 5px;
+}
+.hover-div>i:hover{
+    background: #FF2D2D;
+    border-radius: 100px;
+}
+.content-of-price:hover .hover-div{
+    display: block;
+}
+.for-center-hover-div{
+    display: flex;
+    justify-content: center;
+}
+.under-prices-div{
+    display: flex;
+    justify-content: center;
+}
+.in-under-prices-div>a{
+    font-size: 20px;
+    color: #000;
+    margin-right: 40px;
+}
+.services{
+    width: 90%;
+    margin: 100px auto;
+    border: 1px solid #c1c1c1;
+    padding: 50px;
+}
+.content-in-service{
+    width: 335px;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 50px;
+}
+.img-and-name-in-service{
+    align-items: flex-start;
+}
+.img-and-name-in-service>a{
+    font-size: 20px;
+    color: #D8424B;
+    margin-left: 20px;
+}
+.content-in-service>p{
+    margin-top: 10px;
+    line-height: 20px;
+}
+.services{
+    position: relative;
+}
+.service-title{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: -33;
+    font-size: 30px;
+}
+.service-title>span{
+    padding: 10px;
+    background: #fff;
+}
+.discount-div{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 400;
+}
+.discount{
+    width: 85%;
+    margin: 0 auto;
+}
+.first-div-in-discount,.second-div-in-discount{
+    width: 49%;
+    display: flex;
+}
+.conteiner-discount{
+    margin-top: 50px;
+}
+.title-in-discount-div{
+    color: #D8424B;
+    font-size: 25px;
+}
+.inform-in-discount{
+    background: #F4F3EB;
+    padding: 20px;
+}
+.big-paragraph-in-discount{
+    margin-top: 30px;
+    line-height: 20px;
+}
+.under-discount-div,.conteiner-news{
+    margin-top: 50px;
+}
+.news-div{
+    width: 90%;
+    margin: 60px auto;
+}
+.conteiner-news{
+    display: flex;
+    flex-wrap: wrap;
+}
+.second-guitar-in-new{
+    margin-top: 0;
+}
+.third-div-in-new{
+    margin-top: 100px;
+}
+.trumpet-div{
+    padding-bottom: 43px;
+}
+.last-div-before-footer{
+    width: 100%;
+    background: #F4F3EB;
+}
+.content-in-last{
+    width: 80%;
+    margin: 20px auto 0 auto;
+    padding-bottom: 70px;
+    align-items: flex-start;
+}
+.first-div-in-last{
+    width: 48%;
+}
+.img-and-inform,.img-and-inform-second-in-column{
+    align-items: flex-start;}
+.title-of-img-in-last{
+    font-weight: bold;
+}
+.paragraphs-in-last{
+    width: 65%;
+    margin-top: 10px;
+}
+.inform-of-img-last{
+    margin-top: 15px;
+}
+.data-in-img-in-last{
+    margin-top: 20px;
+    opacity: 0.6;
+}
+.new-title-in-last{
+    padding: 30px 0;
+    font-size: 35px;
+    color: #503737;
+    letter-spacing: 2;
+}
+.img-and-inform-second-in-column,.hrefs-div{
+    margin-top: 40px;
+}
+.hrefs-in-last{
+    text-transform: uppercase;
+    color: #000;
+}
+.follow{
+    margin-left: 20px;
+}
+footer{
+    width: 100%;
+    background: #5D5555;
+}
+.container-footer{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 20px;
+    align-items: flex-start;
+}
+.container-footer>div>ul>li,.vk--icon,.facebook--icon,.last-list-div-in-footer>ul>li>a,.avito-img{
+    color: #fff;
+    margin-bottom: 30px;
+}
+.vk--icon,.facebook--icon{
+    font-size: 20px;
+    padding: 10px;
+    background: #7A6B67;
+    border-radius: 100px;
+}
+.facebook--icon{
+    padding: 10px 14px;
+}
+.last-list-div-in-footer{
+    width: 345px;
+    align-items: flex-start;
+}
+.container-footer>div>ul>li{
+    margin-bottom: 20px;
+}
+@media (max-width: 1366px) and (min-width: 1024px){
+    .div-for-header{
+        width: 90%;
+    }
+    .line-img,.hohner-bravo,.second-price-div-img>img,.img-div-of-price>img{
+        width: 100%;
+    }
+    .div-for-lists-headers{
+        width: 90%;
+    }
+    .line-div{
+        width: 350px;
+    }
+    .second-price-div-img{
+        margin-top: 170px;
+    }
+    .first-price-div-img{
+        margin-top: 140px;
+    }
+    .name-href{
+        font-size: 16px;
+    }
+    .forth-paragraph{
+        padding-bottom: 65px;
+    }
+    .first-price-div{
+        padding-bottom: 66px;
+    }
+    .inform-of-instrument-in-price{
+        width: 200px;
+        margin: 0 auto;
+        font-size: 14px;
+    }
+    .conteiner-discount{
+        align-items: flex-start;
+    }
+    .big-paragraph-in-discount {
+        margin-top: 10px;
+    }
+    .title-in-discount-div{
+        font-size: 20px;
+    }
+    .second-guitar-in-new{
+        margin-top: 0;
+    }
+    .the-second-third-price-div{
+        padding-bottom: 98px;
+    }
+    .the-second-first-price-div{
+        padding-bottom: 78px;
+    }
+    .inform-of-img-last,.title-of-img-in-last{
+        font-size: 14px;
+    }
+    .paragraphs-in-last{
+        width: 57%;
+    }
+    .header-photo{
+        animation: nextpage linear infinite 20s;
+    }
+    @keyframes nextpage{
+        0%{
+            background: url('./photo/first-photo.png') no-repeat;
+        }
+        50%{
+            background: url('./photo/first-photo-2.PNG') no-repeat;
+        }
+        100%{
+            background: url('./photo/first-photo.png') no-repeat;
+        }
+    }
+}
+@media (max-width:1227px) and (min-width: 1024px){
+    .hover-div-first>ul,.hover-div-drums,.hover-div-training-peds{
+        height: 424px;
+    }
+    .first-guitar-in-list-div{
+        width: 80px;
+    }
+    .first-guitar-in-list-div>img{
+        width: 100%;
+    }
+}
+@media (max-width:1023px) and (min-width:767px){
+    .div-for-header{
+        width: 77%;
+    }
+    .third-list-div-in-header>ul{
+        margin-top: 10px;
+    }
+    .input-and-etc{
+        flex-direction: column;
+        height: 230px;
+    }
+    .div-for-lists-headers{
+        width: 95%;
+    }
+    .nav-hrefs{
+        font-size: 14px;
+        padding: 5px 10px;
+    }
+    .line-img,.hohner-bravo,.second-price-div-img>img,.img-div-of-price>img,.first-guitar-div>img
+    ,.forth-img-in-price>img,.paragraphs-in-last{
+        width: 100%;
+    }
+    .line-div{
+        width: 220px;
+    }
+    .slider-photoes{
+        overflow: scroll;
+        flex-wrap: nowrap;
+    }
+    .second-price-div-img{
+        margin-top: 170px;
+    }
+    .first-price-div-img{
+        margin-top: 140px;
+    }
+    .div-price-of-instruments,.conteiner-discount,.conteiner-news,.content-in-last,.img-and-inform,
+    .img-and-inform-second-in-column{
+        flex-direction: column;
+        align-items: center;
+    }
+    .content-of-price{
+        width: 80%;
+        height: 500px;
+        margin-bottom: 50px;
+    }
+    .first-price-div-img{
+        margin-top: 65px;
+    }
+    .second-price-div-img {
+        margin-top: 90px;
+    }
+    .forth-img-in-price{
+        width: 200px;
+    }
+    .first-guitar-div,.forth-img-in-price{
+        width: 200px;
+        margin-top: 20px;
+    }
+    .big-content-in-service{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .first-div-in-discount,.second-div-in-discount{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .second-guitar-in-new{
+        margin-top: 10px;
+    }
+    .container-footer{
+        width: 64%;
+    }
+    .last-list-div-in-footer{
+        margin: 20 auto;
+    }
+    .img-and-inform,.new-title-in-last,.paragraphs-in-last{
+        text-align: center;
+    }
+    .inform-of-img-last{
+        font-size: 23px;
+    }
+    .title-of-img-in-last{
+        font-size: 20px;
+    }
+    .hrefs-div{
+        display: flex;
+        justify-content: space-between;
+    }
+    .header-photo{
+        height: 900px;
+    }
+    .hover-div-first>ul{
+        height: 210px;
+    }
+    .hover-div-first>ul>li {
+        padding: 7px 17px;
+    }
+    .hover-div-drums {
+        left: 0;
+        top: 66px;
+        width: 250px;
+        height: 228px;
+    }
+    .hover-div-drums>ul>li{
+        padding: 12px 0 0 30px;
+    }
+    .hover-div-drums>ul>li::before {
+        left: 15px;
+        top: 19px;
+    }
+    .hover-div-training-peds {
+        background: #AF9559;
+        width: 250px;
+        height: 294px;
+        position: absolute;
+        top: -97px;
+        left: 250px;
+        z-index: 3;
+    }
+    .first-guitar-in-list-div{
+        width: 55px;
+    }
+    .first-guitar-in-list-div>img{
+        width: 100%;
+    }
+}
+@media (max-width: 766px) and (min-width: 320px){
+    .div-for-header{
+        width: 90%;
+    }
+    .third-list-div-in-header>ul{
+        margin-top: 10px;
+    }
+    .input-and-etc{
+        flex-direction: column;
+        height: 230px;
+    }
+    .div-for-lists-headers{
+        width: 95%;
+    }
+    .nav-hrefs{
+        font-size: 20px;
+        padding: 3px 8px;
+    }
+    .line-img,.hohner-bravo,.second-price-div-img>img,.img-div-of-price>img,.first-guitar-div>img
+    ,.forth-img-in-price>img,.paragraphs-in-last,.icon-img,.first-guitar-in-list,.the-end-of-price-img
+    ,.first-div-in-last{
+        width: 100%;
+    }
+    .line-div{
+        width: 65px;
+    }
+    .slider-photoes{
+        overflow-x: scroll;
+        flex-wrap: nowrap;
+    }
+    .second-price-div-img{
+        margin-top: 170px;
+    }
+    .first-price-div-img{
+        margin-top: 140px;
+    }
+    .div-price-of-instruments,.conteiner-discount,.conteiner-news,.content-in-last,.img-and-inform,
+    .img-and-inform-second-in-column,.div-for-header,.second-list-in-header,.ul-in-header,.face-vk-avito-div{
+        flex-direction: column;
+        align-items: center;
+    }
+    .content-of-price{
+        width: 80%;
+        height: 500px;
+        margin-bottom: 50px;
+    }
+    .first-price-div-img{
+        margin-top: 65px;
+    }
+    .second-price-div-img {
+        margin-top: 90px;
+    }
+    .forth-img-in-price{
+        width: 200px;
+    }
+    .first-guitar-div,.forth-img-in-price{
+        width: 200px;
+        margin-top: 20px;
+    }
+    .big-content-in-service{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .first-div-in-discount,.second-div-in-discount{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .second-guitar-in-new{
+        margin-top: 10px;
+    }
+    .container-footer{
+        width: 64%;
+    }
+    .last-list-div-in-footer{
+        margin: 20 auto;
+    }
+    .img-and-inform,.new-title-in-last,.paragraphs-in-last{
+        text-align: center;
+    }
+    .inform-of-img-last{
+        font-size: 23px;
+    }
+    .title-of-img-in-last{
+        font-size: 20px;
+    }
+    .hrefs-div{
+        display: flex;
+        justify-content: space-between;
+    }
+    .telephone-div-header{
+        margin: 25px;
+    }
+    .third-list-div-in-header{
+        margin: 0 auto;
+    }
+    .input-div-header{
+        padding: 5px;
+    }
+    .input-header{
+        width: 180px;
+    }
+    .header-photo{
+        height: 900px;
+    }
+    .div-for-div-of-lists-header{
+        background-color: transparent;
+    }
+    .ul-in-header>li>a,.nav-hrefs{
+        color: #b58c29;
+    }
+    .hover-div-first>ul{
+        height: 210px;
+    }
+    .hover-div-first>ul>li {
+        padding: 7px 17px;
+    }
+    .hover-div-drums {
+        left: 0;
+        top: 66px;
+        width: 250px;
+        height: 228px;
+    }
+    .hover-div-drums>ul>li{
+        padding: 12px 0 0 30px;
+    }
+    .hover-div-drums>ul>li::before {
+        left: 15px;
+        top: 19px;
+    }
+    .hover-div-training-peds {
+        background: #AF9559;
+        width: 250px;
+        height: 235px;
+        position: absolute;
+        top: 38px;
+        left: 0px;
+        z-index: 3;
+    }
+    .musical-instruments:hover .header-photo{
+        height: 1130px;
+    }
+    .first-guitar-in-list-div{
+        width: 50px;
+    }
+    .inform-for-guitar-dbz{
+        margin-top: 0;
+    }
+    .all-afters-href{
+        font-size: 13px;
+    }
+    .title-price-of-instruments>span {
+        font-size: 35px;
+    }
+    .proporties-of-instruments{
+        width: 300px;
+    }
+    .name-href {
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .third-price-div{
+        padding-bottom: 45px;
+    }
+    .forth-paragraph {
+        padding-bottom: 20px;
+    }
+    .second-guitar-in-new{
+        width: 155px;
+    }
+    .the-end-div-of-price-div{
+        width: 100px;
+    }
+    .in-under-prices-div{
+        text-align: center;
+    }
+    .content-in-service>p{
+        width: 260px;
+    }
+    .services{
+        padding: 25px;
+    }
+    .img-and-name-in-service>a{
+        margin-left: 0;
+    } 
+    .first-div-in-discount,.second-div-in-discount{
+        width: 100%;
+        flex-direction: column;
+    }
+    .last-list-div-in-footer{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .in-under-prices-div>a{
+        font-size: 13px;
+        margin-right: 10px;
+    }
+    .content-in-service {
+        width: 261px;
+    }
+}
